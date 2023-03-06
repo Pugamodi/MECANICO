@@ -1,0 +1,379 @@
+.titulo{
+
+   height: auto;
+width: auto;
+     text-align:center;
+
+margin-bottom: 50px;
+
+
+}
+.type3{
+
+display: none;
+
+
+}
+
+
+
+header{
+
+width: 100%;
+height: 1200px;
+margin-top: 50px;
+
+}
+
+
+h1{
+
+text-align: center;
+font-family: 'Roboto Condensed', sans-serif;
+margin-bottom: 50px;
+font-size: 100px;
+
+
+}
+h2{
+
+text-align: center;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+nav{
+  
+  width:100%;
+  height:auto;
+  margin-bottom: 100px;
+
+  
+
+  
+}
+
+
+a:link{
+  text-decoration:none;
+  font-size:18px;
+  text-align: center;
+  color:Black;
+  padding:16px;
+  display:inline-block; 
+    width: 10%;
+    height: 30px;
+    transition: width 2s;
+padding-left: 7.5%;
+
+
+
+  
+}
+a:visited {
+  color: Black;
+}
+
+
+main{
+
+height: 600px;
+width: 100%;
+
+
+}
+img{
+
+width: 100%;
+height: 100%;
+}
+.texto2{
+padding: 20px;
+
+  width: 80%;
+
+
+
+}
+.type{
+
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 20px;
+
+
+
+}
+.apa{
+
+display: none;
+
+}
+
+.slider{
+
+margin-top:   1000px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+
+
+.slider-frame {
+  width: 1280px;
+    height: auto;
+  margin:50px auto 0;
+  overflow: hidden;
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  
+  animation: slide 10s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
+
+.type2{
+  
+  border: 2px solid #e33d3d; 
+  font-size: 23px;
+  border-radius: 10px; 
+  position: relative;
+  font-size: 40px;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 0px;
+margin-right: 100px;
+
+
+font-family: 'Roboto Condensed', sans-serif;
+ 
+
+
+}
+.type2:hover {
+  color: #fff; 
+}
+.type2::after {
+  content: "";
+  background: #e33d3d; 
+  position: absolute;
+  z-index: -1;
+  padding: 7px 12px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.type2:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+img{
+
+height: auto;
+width: auto;
+
+}
+h2{
+
+font-size: 50px;
+margin-bottom: 50px;
+
+
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+
+
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+  .footer-content, .footer-bottom {
+    max-width: 100%;
+    padding: 0 20px;
+    
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+footer{
+
+margin-top: 600px
+
+
+}
+
+
+}
+
+.contenedor{
+
+margin-left: 20%;
+
+
+}
+
+@media only screen and (max-width: 859px) {
+
+.imgti{
+
+display: block;
+width: 85%;
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+.movil{
+
+display: block;
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+
+.slider-frame {
+  width: 416px;
+    height: auto;
+  margin:50px auto 0;
+  overflow: hidden;
+}
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+
+header{
+
+width: 100%;
+height: 700px;
+margin-top: 50px;
+
+}
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+h2{
+
+font-size: 29px;
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 1299px) {
+
+.slider-frame {
+  width: auto;
+    height: auto;
+  margin:50px auto 0;
+  overflow: hidden;
+}
+
+}
+
+@media only screen and (max-width: 800px){
+
+
+
+
+@media only screen and (max-width: 800px)
+{
+
+.type2{
+
+margin-left: 70%;
+font-size: 18px;
+text-align: justify;
+
+
+}
+
+
+
+
+}
+.pablo{
+
+text-align: center;
+
+margin-left: 100%;
+
+
+
+
+}
+
+
